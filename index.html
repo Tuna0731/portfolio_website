@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Racy | Portfolio</title>
+</head>
+<body>
+
+   
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><span>Racy</span></div>
+            <div class="links">
+                <div class="link"><a href="#home">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#services">Services</a></div>
+                <div class="link"><a href="#projects">Projects</a></div>
+                <div class="link"><a href="#reflection">Reflection</a></div>
+                <div class="link"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home" onclick="cancel()">Home</a>
+                <a href="#about" onclick="cancel()">About</a>
+                <a href="#skills" onclick="cancel()">Skills</a>
+                <a href="#services" onclick="cancel()">Services</a>
+                <a href="#projects" onclick="cancel()">Projects</a>
+                <a href="#reflection" onclick="cancel()">Reflection</a>
+                <a href="#contact" onclick="cancel()">Contact</a>
+                <i class="fa-solid fa-x cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="main.jpg" alt="Racy's Profile Photo">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+                    Hi, I'm <span>Racy</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="400">
+                    I'm a <span class="typewriter-text"></span>
+                </div>
+                <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="600">
+                    Front-end developer who loves crafting beautiful, responsive websites and digital experiences.
+                </p>
+                <div class="social-links" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800">
+                    <a href="https://github.com/Tuna0731"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/Tuna.Mayo.94849"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/racy0731/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gracy-lyn-viado-5768a4385/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="btn" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <span>About Me</span>
+            </div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="main.jpg" alt="About Racy"/>
+                </div>
+                <div class="right" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="topic">Designing Is My Passion</div>
+                    <p>
+                        I'm <strong>Gracy Lyn Viado</strong>, a passionate IT student making web systems. I enjoy designing and building websites that are not only functional but also visually appealing. My goal is to merge creativity with technology to deliver digital experiences that make my users smile.
+                    </p>
+                    <br>
+                    <p>
+                        Beyond my coding experience, I enjoy photography, graphic design, and exploring new UI trends. I believe that the best websites are the ones where the user doesn't even notice how well they work — they just enjoy using them.
+                    </p>
+                    <br>
+                    <p>
+                        <strong>Career Objective:</strong> To become a full-stack web developer who creates meaningful, accessible, and visually stunning digital products.
+                    </p>
+                    <div class="button">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <span>My Skills</span>
+            </div>
+            <div class="skills-details">
+                <div class="text" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="topic">Skills Reflect Our Knowledge</div>
+                    <p>
+                        Throughout my web development journey, I have built a solid foundation in both front-end and back-end technologies. I continuously sharpen my skills through hands-on projects, coursework.
+                    </p>
+                    <div class="experience">
+                        <div class="num">0+</div>
+                        <div class="exp">Years Of <br/> Experience</div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="topic">HTML</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="topic">CSS</div>
+                        <div class="per">80%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="topic">JavaScript</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="topic">PHP</div>
+                        <div class="per">60%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="topic">MySQL</div>
+                        <div class="per">55%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="topic">Figma</div>
+                        <div class="per">65%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <span>My Services</span>
+            </div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+                    <div class="topic">Web Development</div>
+                    <p>Building clean, responsive websites using HTML, CSS, and JavaScript that work beautifully across all devices.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="icon"><i class="fa-solid fa-paintbrush"></i></div>
+                    <div class="topic">Graphics Design</div>
+                    <p>Creating eye-catching visuals, banners, and UI mockups using Figma and other design tools.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="icon"><i class="fa-solid fa-mobile"></i></div>
+                    <div class="topic">App Development</div>
+                    <p>Developing simple web-based applications with interactive features and backend integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <div class="content">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <span>Projects & Activities</span>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="project-screenshot">
+                        <!-- Replace with: <img src="screenshots/project1.png" alt="Portfolio Screenshot"> -->
+                        <i class="fa-solid fa-globe placeholder-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-title">Personal Portfolio Website</div>
+                        <p class="project-desc">
+                            A fully responsive personal portfolio website showcasing my skills, services, and projects. Features AOS scroll animations, a typewriter effect, and a mobile-friendly hamburger navigation menu.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AOS Library</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Tuna0731" target="_blank">
+                                <i class="fa-brands fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="project-screenshot">
+                        <!-- Replace with: <img src="screenshots/project2.png" alt="Project 2 Screenshot"> -->
+                        <i class="fa-solid fa-code placeholder-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-title">Minicapstone</div>
+                        <p class="project-desc">
+                            A multi-section static web page built as part of the HTML and CSS fundamentals module. Demonstrates semantic HTML structure, CSS Flexbox layout, and basic styling principles.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Flexbox</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Tuna0731" target="_blank">
+                                <i class="fa-brands fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="project-screenshot">
+                        <!-- Replace with: <img src="screenshots/project3.png" alt="Project 3 Screenshot"> -->
+                        <i class="fa-solid fa-database placeholder-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-title">Dynamic Web Application</div>
+                        <p class="project-desc">
+                            A PHP and MySQL-powered web application featuring user authentication, CRUD operations, and a responsive front-end interface. Built as part of the backend integration module.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Tuna0731" target="_blank">
+                                <i class="fa-brands fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- REFLECTION -->
+    <section class="reflection" id="reflection">
+        <div class="content">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <span>Learning Reflection</span>
+            </div>
+            <div class="reflection-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <p>
+                    Taking IT2301 — Web Systems and Technologies has been one of the most transformative learning experiences of my academic journey. When I first enrolled in this course, I had only a surface-level understanding of how websites worked. I knew that HTML structured content and that CSS made things look nice, but the deeper mechanics of how everything ties together remained a mystery. Over the course of this semester, that mystery has gradually unfolded into something I can now confidently build upon.
+                </p>
+                <p>
+                    One of my greatest takeaways from this course is understanding the fundamental relationship between HTML, CSS, and JavaScript. I learned that HTML is not just about putting text on a screen — it's about creating meaningful, semantic structures that communicate intent to both browsers and screen readers. CSS, meanwhile, is far more powerful than I initially imagined; responsive design through media queries alone opened my eyes to just how much thought goes into making a single website work across dozens of different devices. JavaScript added interactivity and life to static pages, and learning about DOM manipulation made me realize that the web is not just a display medium — it is a dynamic, interactive platform.
+                </p>
+                <p>
+                    Of course, the journey was not without its challenges. One of the most difficult aspects for me was debugging CSS layout issues, particularly when working with Flexbox and positioning. There were moments where a single misplaced property would break an entire section, and tracking down the cause felt overwhelming. To address this, I started using browser developer tools more systematically and developed a habit of isolating components when something went wrong. I also leaned on online documentation, tutorials, and peer discussions, which proved invaluable.
+                </p>
+                <p>
+                    Another challenge I encountered was integrating JavaScript with the rest of the project in a clean, organized manner. Managing event listeners, scroll behavior, and animation libraries simultaneously required careful planning. I learned to break my scripts into logical functions and to think about how components interact before writing a single line of code — a lesson that extends well beyond web development.
+                </p>
+                <p>
+                    Reflecting on everything, the biggest realization I've had is that web development is as much a creative pursuit as it is a technical one. The best websites are designed with empathy for the user — anticipating what they need, guiding them naturally, and making every interaction feel effortless. This course has given me the foundational skills to start building those experiences, and it has sparked a genuine passion in me for front-end development. I look forward to continuing this journey, exploring frameworks like React, and eventually contributing to projects that make a real difference for real people.
+                </p>
+                <div class="reflection-word-count">~420 words</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <span>Contact Me</span>
+            </div>
+            <div class="contact-wrapper" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+                <div class="text">
+                    <div class="topic">Have a Project?</div>
+                    <p>Feel free to reach out for collaborations, freelance opportunities, or just a friendly hello. I'd love to hear from you!</p>
+
+                    <ul class="contact-info-list">
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <!-- Replace with your actual email -->
+                            <span>Email: <a href="mailto:gracylyn.viado@example.com">gracylyn.viado@example.com</a></span>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub: <a href="https://github.com/Tuna0731" target="_blank">github.com/Tuna0731</a></span>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <span>LinkedIn: <a href="https://www.linkedin.com/in/gracy-lyn-viado-5768a4385/" target="_blank">Gracy Lyn Viado</a></span>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-facebook"></i>
+                            <span>Facebook: <a href="https://www.facebook.com/Tuna.Mayo.94849" target="_blank">Tuna.Mayo.94849</a></span>
+                        </li>
+                    </ul>
+
+                    <div class="contact-social">
+                        <span>Follow me on:</span>
+                        <div class="social-links">
+                            <a href="https://github.com/Tuna0731"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/Tuna.Mayo.94849"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/racy0731/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gracy-lyn-viado-5768a4385/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button>Let's Chat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Racy</a> &copy;2026 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
