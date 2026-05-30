@@ -1,6 +1,6 @@
 AOS.init({ offset: 0, duration: 1000, once: true });
 
-// Typewriter effect
+
 const words = ["Designer", "Developer", "Freelancer"];
 let i = 0, j = 0, isDeleting = false;
 
@@ -25,7 +25,7 @@ function type() {
 }
 type();
 
-// Hamburger nav
+
 function hamburg() {
     document.querySelector('.dropdown').style.transform = 'translateY(0)';
     document.querySelector('.hamburg').style.opacity = '0';
@@ -42,7 +42,7 @@ function cancel() {
     document.querySelector('.cancel').style.pointerEvents = 'none';
 }
 
-// Active nav link on scroll
+
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-container .links .link a');
