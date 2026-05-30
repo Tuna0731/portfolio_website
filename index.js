@@ -1,7 +1,7 @@
 AOS.init({ offset: 0, duration: 1000, once: true });
 
 
-const words = ["Designer", "Developer", "Freelancer"];
+const words = ["Designer", "Developer", "Artist"];
 let i = 0, j = 0, isDeleting = false;
 
 function type() {
